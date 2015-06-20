@@ -1,4 +1,41 @@
-.lf-area{
-    float:left;
-    
+.M-lf-area {
+    float: left;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    font-weight: bold;
+    background-color: bisque;
+}
+.M-lf-area>ul{
+    position: relative;
+}
+
+.M-lf-area li ul {
+    margin-left: 20px;
+}
+
+.M-lf-area li {
+    min-height: 35px;
+    line-height: 35px;
+    text-align: left;
+}
+
+.M-lf-area li a {
+    display: block;
+    text-indent: 20px;
+    margin-bottom: 1px;
+}
+
+.M-lf-area li a.selected,
+.M-lf-area li a:hover {
+    background-color: #6495ed;
+    cursor: pointer;
+    color: #fff;
+}
+
+.M-rf-area {
+    margin-left: 200px;
+    height: 100%;
+    overflow: auto;
 }

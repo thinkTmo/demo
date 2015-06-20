@@ -4,12 +4,34 @@
 <head>
     <link type="text/css" href="css/comm.css" rel="stylesheet" />
     <link type="text/css" href="css/index.css" rel="stylesheet" />
+    <script src="js/index.js" charset="utf-8" ></script>
+    <script src="js/comm.js" charset="utf-8" ></script>
+    <script src="js/jquery-1.11.1.js" ></script>
+    
     <title>idnex</title>
 </head>
 
-<body>
-    <div class="lf-area"></div>
-asdasd
+<body onload="Index.setTarget()">
+    <div class="M-lf-area">
+        <ul class="js_first_ul">
+            <li>
+                <a class="" href="page/test.html">111</a>
+                <ul>
+                    <li>
+                        <a href="page/test.html">222</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a>111</a>
+            </li>
+        </ul>
+    </div>
+    <div class="M-rf-area">
+        <iframe name="page" class="fullFrame"></iframe>
+    </div>
+
+
 </body>
 
 </html>
