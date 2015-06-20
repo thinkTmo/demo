@@ -19,6 +19,11 @@
     min-height: 35px;
     line-height: 35px;
     text-align: left;
+    user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
 }
 
 .M-lf-area li a {
@@ -33,7 +38,6 @@
     cursor: pointer;
     color: #fff;
 }
-
 .M-rf-area {
     margin-left: 200px;
     height: 100%;
