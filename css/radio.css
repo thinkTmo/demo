@@ -1,0 +1,12 @@
+.radio input{
+    display: none;
+}
+.radio input+div {
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+
+.radio input:checked+div {
+    background-color: #bbffff;
+}

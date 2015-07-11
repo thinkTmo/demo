@@ -7,9 +7,6 @@
     font-weight: bold;
     background-color: bisque;
 }
-.M-lf-area>ul{
-    position: relative;
-}
 
 .M-lf-area li ul {
     margin-left: 20px;
@@ -19,11 +16,11 @@
     min-height: 35px;
     line-height: 35px;
     text-align: left;
-    user-select:none;
-    -moz-user-select:none;
-    -o-user-select:none;
-    -webkit-user-select:none;
-    -ms-user-select:none;
+    user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .M-lf-area li a {
@@ -33,13 +30,27 @@
 }
 
 .M-lf-area li a.selected,
-.M-lf-area li a:hover {
+.M-lf-area li a:hover,
+.radio input:checked+div {
     background-color: #6495ed;
     cursor: pointer;
     color: #fff;
 }
+
 .M-rf-area {
     margin-left: 200px;
     height: 100%;
     overflow: auto;
 }
+/*菜单栏单选--begin*/
+
+.radio input {
+    display: none;
+}
+
+.radio input+div {
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+/*菜单栏单选--end*/

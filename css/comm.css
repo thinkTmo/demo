@@ -38,6 +38,7 @@ color: #292525;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    word-break: keep-all;
 }
 
 .fullFrame {
